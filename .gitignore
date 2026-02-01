@@ -1,0 +1,29 @@
+cat >> .gitignore << 'EOF'
+
+# Project specific
+*.pkl
+*.json
+*.parquet
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Secrets
+.env
+secrets/
+
+# Databricks
+.databricks/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+EOF
