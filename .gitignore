@@ -1,5 +1,3 @@
-cat >> .gitignore << 'EOF'
-
 # Project specific
 *.pkl
 *.json
@@ -8,6 +6,7 @@ data/raw/*
 !data/raw/.gitkeep
 data/processed/*
 !data/processed/.gitkeep
+cloud-sql-proxy.*
 
 # Secrets
 .env
@@ -26,4 +25,9 @@ secrets/
 # IDE
 .vscode/
 .idea/
-EOF
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
