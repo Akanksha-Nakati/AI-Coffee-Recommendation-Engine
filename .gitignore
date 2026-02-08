@@ -31,3 +31,10 @@ venv/
 .venv/
 __pycache__/
 *.pyc
+
+# Airflow
+airflow/logs/*
+!airflow/logs/.gitkeep
+airflow/airflow.db
+airflow/webserver_config.py
+airflow/.env
