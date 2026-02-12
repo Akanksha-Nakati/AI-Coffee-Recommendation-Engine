@@ -38,3 +38,8 @@ airflow/logs/*
 airflow/airflow.db
 airflow/webserver_config.py
 airflow/.env
+airflow/logs/*
+!airflow/logs/.gitkeep
+airflow/airflow.db
+airflow/webserver_config.py
+airflow/.env
