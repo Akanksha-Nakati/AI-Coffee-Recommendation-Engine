@@ -49,13 +49,5 @@ AI-Coffee-Recommendation-Engine/
 ├── docs/
 │   └── airflow_setup.md
 ├── build_chroma_index.py         # Build ChromaDB vector index
-├── build_faiss_from_csv.py       # FAISS index builder (optional)
 └── run_app.py                    # App entrypoint
 ```
-
----
-## Author
-
-**Akanksha Nakati**  
-Data Engineer · AI/ML Enthusiast  
-[GitHub](https://github.com/Akanksha-Nakati) · [LinkedIn](https://linkedin.com/in/akanksha-nakati)
